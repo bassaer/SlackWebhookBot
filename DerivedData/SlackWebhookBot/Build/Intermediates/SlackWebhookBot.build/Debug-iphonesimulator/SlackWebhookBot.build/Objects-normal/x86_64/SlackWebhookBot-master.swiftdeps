@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "0fcc054c147f15d73eae6c795efbe925"
+build_time: [524732228, 129696000]
+inputs:
+  "/Users/nakayama/Documents/iOS/SlackWebhookBot/SlackWebhookBot/ViewController.swift": [524732223, 0]
+  "/Users/nakayama/Documents/iOS/SlackWebhookBot/SlackWebhookBot/AppDelegate.swift": [524732223, 0]
