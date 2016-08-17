@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A781FA981D64423F00E00A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A781FA971D64423F00E00A9A /* AppDelegate.swift */; };
+		A781FA9A1D64423F00E00A9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A781FA991D64423F00E00A9A /* ViewController.swift */; };
+		A781FA9D1D64423F00E00A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A781FA9B1D64423F00E00A9A /* Main.storyboard */; };
+		A781FA9F1D64423F00E00A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A781FA9E1D64423F00E00A9A /* Assets.xcassets */; };
+		A781FAA21D64423F00E00A9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A781FAA01D64423F00E00A9A /* LaunchScreen.storyboard */; };
+		A781FAAD1D64423F00E00A9A /* SlackWebhookBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A781FAAC1D64423F00E00A9A /* SlackWebhookBotTests.swift */; };
+		A781FAB81D64423F00E00A9A /* SlackWebhookBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A781FAB71D64423F00E00A9A /* SlackWebhookBotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A781FAA91D64423F00E00A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A781FA8C1D64423F00E00A9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A781FA931D64423F00E00A9A;
+			remoteInfo = SlackWebhookBot;
+		};
+		A781FAB41D64423F00E00A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A781FA8C1D64423F00E00A9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A781FA931D64423F00E00A9A;
+			remoteInfo = SlackWebhookBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A781FA941D64423F00E00A9A /* SlackWebhookBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlackWebhookBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A781FA971D64423F00E00A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A781FA991D64423F00E00A9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A781FA9C1D64423F00E00A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A781FA9E1D64423F00E00A9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A781FAA11D64423F00E00A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A781FAA31D64423F00E00A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A781FAA81D64423F00E00A9A /* SlackWebhookBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlackWebhookBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A781FAAC1D64423F00E00A9A /* SlackWebhookBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlackWebhookBotTests.swift; sourceTree = "<group>"; };
+		A781FAAE1D64423F00E00A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A781FAB31D64423F00E00A9A /* SlackWebhookBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlackWebhookBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A781FAB71D64423F00E00A9A /* SlackWebhookBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlackWebhookBotUITests.swift; sourceTree = "<group>"; };
+		A781FAB91D64423F00E00A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A781FA911D64423F00E00A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A781FAA51D64423F00E00A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A781FAB01D64423F00E00A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A781FA8B1D64423F00E00A9A = {
+			isa = PBXGroup;
+			children = (
+				A781FA961D64423F00E00A9A /* SlackWebhookBot */,
+				A781FAAB1D64423F00E00A9A /* SlackWebhookBotTests */,
+				A781FAB61D64423F00E00A9A /* SlackWebhookBotUITests */,
+				A781FA951D64423F00E00A9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A781FA951D64423F00E00A9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A781FA941D64423F00E00A9A /* SlackWebhookBot.app */,
+				A781FAA81D64423F00E00A9A /* SlackWebhookBotTests.xctest */,
+				A781FAB31D64423F00E00A9A /* SlackWebhookBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A781FA961D64423F00E00A9A /* SlackWebhookBot */ = {
+			isa = PBXGroup;
+			children = (
+				A781FA971D64423F00E00A9A /* AppDelegate.swift */,
+				A781FA991D64423F00E00A9A /* ViewController.swift */,
+				A781FA9B1D64423F00E00A9A /* Main.storyboard */,
+				A781FA9E1D64423F00E00A9A /* Assets.xcassets */,
+				A781FAA01D64423F00E00A9A /* LaunchScreen.storyboard */,
+				A781FAA31D64423F00E00A9A /* Info.plist */,
+			);
+			path = SlackWebhookBot;
+			sourceTree = "<group>";
+		};
+		A781FAAB1D64423F00E00A9A /* SlackWebhookBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				A781FAAC1D64423F00E00A9A /* SlackWebhookBotTests.swift */,
+				A781FAAE1D64423F00E00A9A /* Info.plist */,
+			);
+			path = SlackWebhookBotTests;
+			sourceTree = "<group>";
+		};
+		A781FAB61D64423F00E00A9A /* SlackWebhookBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A781FAB71D64423F00E00A9A /* SlackWebhookBotUITests.swift */,
+				A781FAB91D64423F00E00A9A /* Info.plist */,
+			);
+			path = SlackWebhookBotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A781FA931D64423F00E00A9A /* SlackWebhookBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A781FABC1D64423F00E00A9A /* Build configuration list for PBXNativeTarget "SlackWebhookBot" */;
+			buildPhases = (
+				A781FA901D64423F00E00A9A /* Sources */,
+				A781FA911D64423F00E00A9A /* Frameworks */,
+				A781FA921D64423F00E00A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlackWebhookBot;
+			productName = SlackWebhookBot;
+			productReference = A781FA941D64423F00E00A9A /* SlackWebhookBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A781FAA71D64423F00E00A9A /* SlackWebhookBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A781FABF1D64423F00E00A9A /* Build configuration list for PBXNativeTarget "SlackWebhookBotTests" */;
+			buildPhases = (
+				A781FAA41D64423F00E00A9A /* Sources */,
+				A781FAA51D64423F00E00A9A /* Frameworks */,
+				A781FAA61D64423F00E00A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A781FAAA1D64423F00E00A9A /* PBXTargetDependency */,
+			);
+			name = SlackWebhookBotTests;
+			productName = SlackWebhookBotTests;
+			productReference = A781FAA81D64423F00E00A9A /* SlackWebhookBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A781FAB21D64423F00E00A9A /* SlackWebhookBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A781FAC21D64423F00E00A9A /* Build configuration list for PBXNativeTarget "SlackWebhookBotUITests" */;
+			buildPhases = (
+				A781FAAF1D64423F00E00A9A /* Sources */,
+				A781FAB01D64423F00E00A9A /* Frameworks */,
+				A781FAB11D64423F00E00A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A781FAB51D64423F00E00A9A /* PBXTargetDependency */,
+			);
+			name = SlackWebhookBotUITests;
+			productName = SlackWebhookBotUITests;
+			productReference = A781FAB31D64423F00E00A9A /* SlackWebhookBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A781FA8C1D64423F00E00A9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Nakayama;
+				TargetAttributes = {
+					A781FA931D64423F00E00A9A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5G8V8GN7U6;
+					};
+					A781FAA71D64423F00E00A9A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5G8V8GN7U6;
+						TestTargetID = A781FA931D64423F00E00A9A;
+					};
+					A781FAB21D64423F00E00A9A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5G8V8GN7U6;
+						TestTargetID = A781FA931D64423F00E00A9A;
+					};
+				};
+			};
+			buildConfigurationList = A781FA8F1D64423F00E00A9A /* Build configuration list for PBXProject "SlackWebhookBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A781FA8B1D64423F00E00A9A;
+			productRefGroup = A781FA951D64423F00E00A9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A781FA931D64423F00E00A9A /* SlackWebhookBot */,
+				A781FAA71D64423F00E00A9A /* SlackWebhookBotTests */,
+				A781FAB21D64423F00E00A9A /* SlackWebhookBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A781FA921D64423F00E00A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A781FAA21D64423F00E00A9A /* LaunchScreen.storyboard in Resources */,
+				A781FA9F1D64423F00E00A9A /* Assets.xcassets in Resources */,
+				A781FA9D1D64423F00E00A9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A781FAA61D64423F00E00A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A781FAB11D64423F00E00A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A781FA901D64423F00E00A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A781FA9A1D64423F00E00A9A /* ViewController.swift in Sources */,
+				A781FA981D64423F00E00A9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A781FAA41D64423F00E00A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A781FAAD1D64423F00E00A9A /* SlackWebhookBotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A781FAAF1D64423F00E00A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A781FAB81D64423F00E00A9A /* SlackWebhookBotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A781FAAA1D64423F00E00A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A781FA931D64423F00E00A9A /* SlackWebhookBot */;
+			targetProxy = A781FAA91D64423F00E00A9A /* PBXContainerItemProxy */;
+		};
+		A781FAB51D64423F00E00A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A781FA931D64423F00E00A9A /* SlackWebhookBot */;
+			targetProxy = A781FAB41D64423F00E00A9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A781FA9B1D64423F00E00A9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A781FA9C1D64423F00E00A9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A781FAA01D64423F00E00A9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A781FAA11D64423F00E00A9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A781FABA1D64423F00E00A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A781FABB1D64423F00E00A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A781FABD1D64423F00E00A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlackWebhookBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakayama.SlackWebhookBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A781FABE1D64423F00E00A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlackWebhookBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakayama.SlackWebhookBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A781FAC01D64423F00E00A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlackWebhookBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakayama.SlackWebhookBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlackWebhookBot.app/SlackWebhookBot";
+			};
+			name = Debug;
+		};
+		A781FAC11D64423F00E00A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlackWebhookBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakayama.SlackWebhookBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlackWebhookBot.app/SlackWebhookBot";
+			};
+			name = Release;
+		};
+		A781FAC31D64423F00E00A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlackWebhookBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakayama.SlackWebhookBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlackWebhookBot;
+			};
+			name = Debug;
+		};
+		A781FAC41D64423F00E00A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SlackWebhookBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nakayama.SlackWebhookBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SlackWebhookBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A781FA8F1D64423F00E00A9A /* Build configuration list for PBXProject "SlackWebhookBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A781FABA1D64423F00E00A9A /* Debug */,
+				A781FABB1D64423F00E00A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A781FABC1D64423F00E00A9A /* Build configuration list for PBXNativeTarget "SlackWebhookBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A781FABD1D64423F00E00A9A /* Debug */,
+				A781FABE1D64423F00E00A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A781FABF1D64423F00E00A9A /* Build configuration list for PBXNativeTarget "SlackWebhookBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A781FAC01D64423F00E00A9A /* Debug */,
+				A781FAC11D64423F00E00A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A781FAC21D64423F00E00A9A /* Build configuration list for PBXNativeTarget "SlackWebhookBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A781FAC31D64423F00E00A9A /* Debug */,
+				A781FAC41D64423F00E00A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A781FA8C1D64423F00E00A9A /* Project object */;
+}
